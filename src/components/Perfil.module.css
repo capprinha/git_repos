@@ -1,0 +1,17 @@
+.header{
+    background-color:var(--corDeFundo);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 180px 0px 40px;
+}
+.avatar{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    border: 2px solid var(--corDoTexto);
+}
+.name{
+    font-size: 18px;
+    color: var(--corDoTexto);
+}
