@@ -30,6 +30,11 @@
     text-align: center;
     padding: 8px;
 }
+.nomeNaoEncontrado{
+    color: var(--corDoTexto);
+    text-align: center;
+    padding: 10px 0px;
+}
 @media (max-width:320px){
     .list{
         display: block;

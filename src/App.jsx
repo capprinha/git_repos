@@ -11,6 +11,7 @@ function App() {
       <div className="centralizaInput">
         <input className='inputUsuario'type="text" placeholder="Digite seu nome do GitHub"
         onBlur={evento => setNomeUsuario(evento.target.value)} />
+        <button className="buttonUsuario">Pesquisar</button>
         
       </div>
 
